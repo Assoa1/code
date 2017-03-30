@@ -1,0 +1,33 @@
+ 
+
+import java.util.Scanner;
+      
+ 
+
+
+ public class Lecture
+{
+     public static void main(String[] args)
+    {
+        Scanner clavier = new Scanner(System.in);
+        int n ;
+        System.out.println("Entre un nombre entie scrictement positif:");
+        n = clavier.nextInt();
+        if (n<0)
+        {
+          System.out.println("Ce nombre n'est pas entie entre une autre valeur:");
+           System.out.println("Entre un nombre:");
+           n = clavier.nextInt();
+        } else  
+          for(int i=1; i<n;i++) 
+          { 
+              System.out.println("les nombres impiair sont:");
+               System.out.println(2*n-1);     
+          }         
+          
+    }
+}
+
+    
+    
+
